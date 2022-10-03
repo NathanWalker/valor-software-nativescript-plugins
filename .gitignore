@@ -8,7 +8,6 @@
 # dependencies
 node_modules
 package-lock.json
-yarn.lock
 
 # IDEs and editors
 /.idea
@@ -46,3 +45,8 @@ packages/*/native-src/ios/build
 .angular
 
 /.env
+
+
+# Xcode uneeded files
+*.xcuserstate
+xcuserdata/
